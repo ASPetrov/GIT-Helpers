@@ -1,0 +1,24 @@
+Topic description
+# Prefix the line with a tag: [BUGFIX], [FEATURE], [TASK] or [CLEANUP]
+# Keep the whole line below 52 characters if possible, but below 80 in any case
+## [FEATURE]: A new feature (also small additions). Most likely it will be an added feature, but it could also be removed.
+## [BUGFIX]: A fix for a bug.
+## [CLEANUP]: This tag may be used for changes that do not alter functionality, but try to improve code style and readability.
+## [TASK]: Anything not covered by the above categories.
+## [!!!]: Breaking change.
+## [WIP]: Work In Progress.
+## [DB]: Something has changed in the database definition and would require a database COMPARE in the install tool after the update.
+## [CONF]: Some configuration changed.
+## [SECURITY]: Visualizes that a change fixes a security issue.
+
+Message body
+# More detailed explanatory text, if necessary.
+# Wrap lines to 72 characters.
+# Write your commit message in the imperative present tense ("Fix bug" and not "Fixed bug")
+
+Resolves: 
+# Refer to the bug tracker entry(features and tasks, closes the issue on submit).
+Related: 
+# Refer to the bug tracker entry (all types, simply a relation, no closing).
+Releases:
+# Refer to the branches for which this change will apply.
